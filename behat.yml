@@ -1,0 +1,11 @@
+default:
+  suites:
+    walking_skeleton_features:
+      paths: [ '%paths.base%/testsBehat/features' ]
+      contexts: [ BcCanva\Behat\Context\WalkingSkeletonContext ]
+
+
+
+  gherkin:
+    filters:
+      tags: "~@todo&&~@wip"
