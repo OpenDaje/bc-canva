@@ -2,6 +2,8 @@
 /.vscode
 
 composer.lock
+/tools/**/composer.lock
 
 /var
 /vendor/
+/tools/**/vendor
