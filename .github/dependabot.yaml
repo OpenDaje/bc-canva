@@ -21,7 +21,7 @@ updates:
 
   ######################################################################################################################
   #
-  # Tools dependecy configuration - (ecs)
+  # Tools dependency configuration - (ecs|psalm)
   #
   ######################################################################################################################
 
@@ -39,3 +39,18 @@ updates:
         prefix: "composer"
     labels:
         - "tool dependency"
+
+  - package-ecosystem: "composer"
+    target-branch: "main"
+    directory: "/tools/psalm"
+    versioning-strategy: "increase-if-necessary"
+    open-pull-requests-limit: 3
+    schedule:
+      interval: "daily"
+    assignees:
+      - "zerai"
+    commit-message:
+      include: "scope"
+      prefix: "composer"
+    labels:
+      - "tool dependency"

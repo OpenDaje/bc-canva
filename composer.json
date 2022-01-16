@@ -14,11 +14,13 @@
         }
     ],
     "require": {
-        "php": ">=8.0",
+        "php": ">=8.1",
         "ext-gd": "*"
     },
     "require-dev": {
-        "bamarni/composer-bin-plugin": "^1.4"
+        "bamarni/composer-bin-plugin": "^1.4",
+        "behat/behat": "^3.10",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
@@ -27,7 +29,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "OpenDaje\\BcCanva\\Tests\\": "tests/"
+            "OpenDaje\\BcCanva\\Tests\\": "tests/",
+            "BcCanva\\Behat\\": "testsBehat/"
         }
     },
     "config": {
