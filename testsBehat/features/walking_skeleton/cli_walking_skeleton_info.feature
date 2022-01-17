@@ -1,6 +1,5 @@
-#@todo
 Feature: Generation of an empty bc-canva image
-  In order to visulize the software information  by command line
+  In order to visualize the software information  by command line
   As a developer
   I want to use the bc-canva script
 
