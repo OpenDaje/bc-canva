@@ -33,6 +33,9 @@
             "BcCanva\\Behat\\": "testsBehat/"
         }
     },
+    "bin": [
+        "bin/bc-canva"
+    ],
     "config": {
         "allow-plugins": {
             "bamarni/composer-bin-plugin": true
