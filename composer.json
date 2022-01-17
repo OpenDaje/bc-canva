@@ -15,7 +15,8 @@
     ],
     "require": {
         "php": ">=8.1",
-        "ext-gd": "*"
+        "ext-gd": "*",
+        "symfony/console": "^5.4"
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.4",
