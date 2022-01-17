@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+use Symfony\Component\Console\SingleCommandApplication;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+(new SingleCommandApplication())
+    ->setName('BC canva')
+    ->setVersion('0.0.0')
+    ->run();

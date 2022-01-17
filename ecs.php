@@ -19,8 +19,10 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     $parameters->set(Option::CACHE_DIRECTORY, __DIR__ . '/var/tools/ecs/.ecs_cache');
 
     $parameters->set(Option::PATHS, [
+        __DIR__ . '/bin/bc-canva',
         __DIR__ . '/src',
         __DIR__ . '/tests',
+        __DIR__ . '/testsBehat',
         __DIR__ . '/ecs.php',
     ]);
 
